@@ -1,7 +1,7 @@
+import 'package:get/get.dart';
+
 class StudentModel {
-  String name = '';
-  int age = 0;
-  String currentClass = '';
-  StudentModel(
-      {required this.name, required this.age, required this.currentClass});
+  var name = 'Foster Asante'.obs;
+  var age = 0.obs;
+  var currentClass = ''.obs;
 }
